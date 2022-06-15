@@ -4,7 +4,7 @@ or
 
 SELECT job FROM mytable WHERE id > 10 AND id < 15
 
-##Select truncate output
+## Select truncate output
 
 select id, SUBSTRING(full_name,1, 32), age FROM user
 
